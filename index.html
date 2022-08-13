@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneShop</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="height: 50px;">
+                <div class="navbar-nav ms-auto gap-4">
+                    <a class="nav-link active text-white me-4" aria-current="page" href="#">English <i
+                            class="fa-solid fa-angle-up ms-2"></i></a>
+                    <a class="nav-link text-white" href="#"><i class="fa-solid fa-phone me-2"></i>(907) 555-0101</a>
+                    <a class="nav-link text-white" href="#"><i class="fa-solid fa-user me-2"></i>Sing in</a>
+                    <a class="nav-link text-white disabled"><i class="fa-solid fa-cart-shopping me-2"></i>Cart</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-light">
+        <div class="container">
+            <a class="navbar-brand"><img src="./img/Logo.png" alt=""></a>
+            <form class="d-flex mx-auto">
+                <input class="form-control me-2" type="search" placeholder="What are you looking for?"
+                    aria-label="Search" style="width: 450px; height: 50px;">
+                <button class="btn btn-outline-success bg-dark text-white" type="submit"
+                    style="width: 190px; height: 50px;">Search</button>
+            </form>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto gap-2">
+                    <li class="nav-item">
+                        <a class="nav-link text-black" aria-current="page" href="#">Cell Phones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#">Computer&Laptop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#">Tv&Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black">Asseccories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black">Home Apleance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black ">Video Games&Consoles</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                class="active bg-dark" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                class="active bg-dark" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="slide-in-flex">
+                    <h1 class="slide__title">Color your days with small joy</h1>
+                    <a href="#" class="nozim__slide-btn">SHOP NOW</a>
+                </div>
+                <img src="./img/slider1.png" class="d-block" alt="..."
+                    style="margin-top: 20px; margin-left: -70px; width: 750px; height: 600px;">
+            </div>
+            <div class="carousel-item">
+                <div class="slide-in-flex">
+                    <h1 class="slide__title">Color your days with small joy</h1>
+                    <a href="#" class="nozim__slide-btn">SHOP NOW</a>
+                </div>
+                <img src="./img/slider2.png" class="d-block" alt="..."
+                    style="margin-top: 20px; margin-left: -70px; width: 750px; height: 600px;">
+            </div>
+            <div class="carousel-item">
+                <div class="slide-in-flex">
+                    <h1 class="slide__title">Color your days with small joy</h1>
+                    <a href="#" class="nozim__slide-btn">SHOP NOW</a>
+                </div>
+                <img src="./img/slider3.png" class="d-block" alt="..."
+                    style="margin-top: 145px; margin-bottom: 65px;  width: 409px; height: 410px;">
+            </div>
+        </div>
+    </div>
+    <div class="grid container">
+        <div class="grid__item">
+            <p class="grid__foiz">-57%</p>
+            <img class="grid__watch" src="./img/grid-watch.png" alt="">
+            <p class="grid__text">70$</p>
+        </div>
+        <div class="grid__item">
+            <p class="grid__foiz-two">-30%</p>
+            <p class="grid__item-title">Airpods 2.1</p>
+            <p class="grid__val">95$</p>
+        </div>
+        <div class="grid__item">
+            <p class="grid__item-title grid__item-title-two">Xiaomi Mi Power Bank 2s 10000</p>
+            <p class="grid__val">9$</p>
+            <p class="grid__foiz-two">-30%</p>
+
+        </div>
+        <div class="grid__item">
+            <p class="grid__item-title grid__item-title-three">Remax RP-W1 White</p>
+            <p class="grid__val">11$</p>
+            <p class="grid__foiz-two">-10%</p>
+        </div>
+    </div>
+    <div class="center container">
+        <a href="#" class="center-btn">LEARN MORE</a>
+    </div>
+    <div class="phones container">
+        <h1 class="phone__title">Cell Phone</h1>
+        <div class="phone__flex">
+            <div class="phone__item">
+                <img src="./img/phone1.png" alt="">
+                <p class="phone__item-title">IPhone 12 Pro Max 128GB (Gray)</p>
+                <p class="phone__text">1300$</p>
+            </div>
+
+            <div class="phone__item">
+                <img src="./img/phone2.png" alt="">
+                <p class="phone__item-title">IPhone 11 Pro 128GB (Yellow)</p>
+                <p class="phone__text">700$</p>
+            </div>
+
+            <div class="phone__item">
+                <img src="./img/phone3.png" alt="">
+                <p class="phone__item-title">IPhone 12 Pro 256 GB (Blue)</p>
+                <p class="phone__text">1500$</p>
+            </div>
+
+            <div class="phone__item">
+                <img src="./img/phone4.png" alt="">
+                <p class="phone__item-title">IPhone 11 Pro 256 GB (Red)</p>
+                <p class="phone__text">850$</p>
+            </div>
+        </div>
+    </div>
+    <div class="center container">
+        <a href="#" class="center-btn">LEARN MORE</a>
+    </div>
+
+    <div class="phones container">
+        <h1 class="phone__title">Computers & Laptop</h1>
+        <div class="phone__flex">
+            <div class="phone__item">
+                <img src="./img/nout1.png" alt="">
+                <p class="phone__item-title">Lenovo IdeaPad L3 15IML05</p>
+                <p class="phone__text">1350$</p>
+            </div>
+
+            <div class="phone__item">
+                <img src="./img/nout2.png" alt="">
+                <p class="phone__item-title">Dream Machines G1650Ti-15UA65</p>
+                <p class="phone__text">1430$</p>
+            </div>
+
+            <div class="phone__item">
+                <img src="./img/nout4.png" alt="">
+                <p class="phone__item-title">Apple MacBook Air 13" 2020</p>
+                <p class="phone__text">1723$</p>
+            </div>
+
+            <div class="phone__item">
+                <img src="./img/nout3.png" alt="">
+                <p class="phone__item-title">Dream Machines 15UA51</p>
+                <p class="phone__text">1200$</p>
+            </div>
+        </div>
+    </div>
+    <div class="center container">
+        <a href="#" class="center-btn">LEARN MORE</a>
+    </div>
+    <div class="playstation container">
+        <div class="play__left">
+            <img src="./img/ps5.png" alt="">
+            <h1 class="play__title">PlayStation 5 Console</h1>
+            <a href="#" class="nozim__slide-btn">WATCH NOW</a>
+        </div>
+        <div class="play__right">
+            <img class="play__img" src="./img/play-right.png" alt="">
+        </div>
+    </div>
+    <div class="phones container">
+        <h1 class="phone__title">Top seller</h1>
+        <div class="phone__flex">
+            <div class="phone__item">
+                <img src="./img/watch1.png" alt="">
+                <p class="phone__item-title">Smart Watch W34 | ZM (White)</p>
+                <p class="phone__text">29$</p>
+            </div>
+
+            <div class="phone__item">
+                <img src="./img/watch2.png" alt="">
+                <p class="phone__item-title">AirPods 2.1</p>
+                <p class="phone__text">135$</p>
+            </div>
+
+            <div class="phone__item">
+                <img src="./img/watch3.png" alt="">
+                <p class="phone__item-title">Smart Watch W34 | ZM (Black)</p>
+                <p class="phone__text">29$</p>
+            </div>
+
+            <div class="phone__item">
+                <img src="./img/watch4.png" alt="">
+                <p class="phone__item-title">Coffee machine VITEK VT-1526</p>
+                <p class="phone__text">78$</p>
+            </div>
+        </div>
+    </div>
+    <div class="center container">
+        <a href="#" class="center-btn">LEARN MORE</a>
+    </div>
+
+
+    <script src="./script/bootstrap.bundle.min.js"></script>
+</body>
+<footer class="footer">
+    <p class="footer__text">Subscribe to Newslatter</p>
+        <div class="footer__flex container">
+            <a class="navbar-brand whit-logo"><img src="./img/logo-white.png" alt=""></a>
+            <form class="d-flex mx-auto">
+                <input class="form-control me-2" type="search" 
+                    aria-label="Search" style="max-width: 450px; height: 50px;">
+                <button class="btn btn-outline-success bg-dark text-white" type="submit"
+                    style="width: 190px; height: 50px;">SING UP</button>
+            </form>
+            <div class="images">
+                <a href="https://t.me/one_nozim"><img class="img telegram" src="./img/telegram.png" alt=""></a>
+                <a href="#"><img class="img facebook" src="./img/facebook.png" alt=""></a>
+                <a href="https://www.instagram.com/1khamrokulov_/"><img class="img instagram" src="./img/instagram.png" alt=""></a>
+            </div>
+        </div>
+        <ul class="footer__list">
+            <li class="footer__link">News</li>
+            <li class="footer__link">Help</li>
+            <li class="footer__link">Contat</li>
+        </ul>
+</footer>
+</html>
